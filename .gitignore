@@ -1,0 +1,10 @@
+vendor
+storage/views
+storage/less
+.idea
+storage/cache
+storage/logs
+storage/tmp
+Renderer_*.php
+assets/files
+assets/avatars
