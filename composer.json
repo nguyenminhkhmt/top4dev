@@ -55,7 +55,13 @@
         "oe800/flarum-ext-bbcode-signature": "^0.1.3",
         "flagrow/flarum-ext-latex": "^0.1.1",
         "sijad/flarum-ext-links": "^0.1.0@beta",
-        "flagrow/upload": "0.5.*"
+        "flagrow/upload": "0.5.*",
+        "sijad/flarum-ext-pages": "dev-master",
+        "johnhearfield/flarum-ext-oauth-google": "v0.1.0-beta.8.1",
+        "sijad/flarum-ext-spoiler-alert": "^0.1.0",
+        "sijad/flarum-ext-details": "^0.1.2",
+        "flagrow/flarum-ext-analytics": "^0.5.0",
+        "hyn/flarum-default-group": "^0.5.0"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0",
