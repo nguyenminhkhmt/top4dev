@@ -8,3 +8,8 @@ storage/tmp
 Renderer_*.php
 assets/files
 assets/avatars
+rev-manifest.json
+assets/admin-*.js
+assets/admin-*.css
+assets/forum-*.js
+assets/forum-*.css
