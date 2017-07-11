@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "369aae94950fcbaacff7758ef05868a1",
+    "content-hash": "2901bb67f28d5ec7ada2cc7f0d9ad9af",
     "packages": [
         {
             "name": "amaurycarrade/flarum-ext-syndication",
@@ -97,6 +97,56 @@
                 "map"
             ],
             "time": "2017-06-10T07:27:17+00:00"
+        },
+        {
+            "name": "avatar4eg/flarum-ext-users-list",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Avatar4eg/flarum-ext-users-list.git",
+                "reference": "ed9b1a02832fb00031ab1c0030b18071751464c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Avatar4eg/flarum-ext-users-list/zipball/ed9b1a02832fb00031ab1c0030b18071751464c4",
+                "reference": "ed9b1a02832fb00031ab1c0030b18071751464c4",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Users list",
+                    "icon": {
+                        "name": "users",
+                        "backgroundColor": "#FFFFFF",
+                        "color": "#000000"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Avatar4eg\\UsersList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolai Morozov",
+                    "email": "avanmorozov@gmail.com"
+                }
+            ],
+            "description": "Add users list in admin panel.",
+            "keywords": [
+                "Users",
+                "admin"
+            ],
+            "time": "2016-09-16T08:42:06+00:00"
         },
         {
             "name": "clarkwinkelmann/flarum-ext-emojionearea",
@@ -3444,6 +3494,60 @@
             "time": "2015-03-20T14:31:23+00:00"
         },
         {
+            "name": "issyrocks12/flarum-ext-filter",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CDK2020/flarum-ext-filter.git",
+                "reference": "b66bc5754745285d09436fd006e3060466fdf3d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CDK2020/flarum-ext-filter/zipball/b66bc5754745285d09436fd006e3060466fdf3d4",
+                "reference": "b66bc5754745285d09436fd006e3060466fdf3d4",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6",
+                "flarum/flarum-ext-approval": "^0.1.0-beta.6",
+                "flarum/flarum-ext-flags": "^v0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Filter",
+                    "icon": {
+                        "name": "filter",
+                        "backgroundColor": "#263238",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "issyrocks12\\filter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie K",
+                    "email": "charlie@jailbreakhub.org"
+                }
+            ],
+            "description": "Filter out words and phrases from forum posts",
+            "keywords": [
+                "moderation"
+            ],
+            "time": "2017-05-20T02:24:55+00:00"
+        },
+        {
             "name": "johnhearfield/flarum-ext-oauth-google",
             "version": "v0.1.0-beta.8.1",
             "source": {
@@ -3492,6 +3596,58 @@
                 "Authentication"
             ],
             "time": "2016-06-08T20:21:26+00:00"
+        },
+        {
+            "name": "jordanjay29/flarum-ext-summaries",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jordanjay29/flarum-ext-summaries.git",
+                "reference": "1ee6d657b9aafb22c4b329742f5e85d067a36d10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jordanjay29/flarum-ext-summaries/zipball/1ee6d657b9aafb22c4b329742f5e85d067a36d10",
+                "reference": "1ee6d657b9aafb22c4b329742f5e85d067a36d10",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Summaries",
+                    "icon": {
+                        "name": "sticky-note",
+                        "backgroundColor": "#00bac9",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JordanJay29\\Summaries\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordan Schnaidt (jordanjay29)",
+                    "email": "jordanschnaidt@gmail.com"
+                }
+            ],
+            "description": "Show summaries on all discussions.",
+            "keywords": [
+                "discussion"
+            ],
+            "time": "2016-03-10T19:19:48+00:00"
         },
         {
             "name": "league/flysystem",
@@ -4533,6 +4689,66 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "push-edx/flarum-ext-chat",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Push-EDX/flarum-ext-chat.git",
+                "reference": "2adff377e47b7351f47737c0cd59ce326802919c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Push-EDX/flarum-ext-chat/zipball/2adff377e47b7351f47737c0cd59ce326802919c",
+                "reference": "2adff377e47b7351f47737c0cd59ce326802919c",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6",
+                "flarum/flarum-ext-markdown": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Realtime Chat",
+                    "icon": {
+                        "image": "icon.png",
+                        "backgroundSize": "75px 75px",
+                        "backgroundPosition": "center",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundColor": "#244052",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PushEDX\\Chat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillem Pascual",
+                    "email": "blipi.tube@gmail.com",
+                    "homepage": "http://pushedx.net"
+                },
+                {
+                    "name": "Juan"
+                }
+            ],
+            "description": "Realtime chat.",
+            "keywords": [
+                "chat",
+                "flarum",
+                "push-edx",
+                "pushedx"
+            ],
+            "time": "2017-03-27T17:10:12+00:00"
         },
         {
             "name": "pusher/pusher-php-server",
@@ -5916,6 +6132,59 @@
             "time": "2015-12-13T10:36:14+00:00"
         },
         {
+            "name": "wiwatsrt/flarum-ext-best-answer",
+            "version": "v0.1.0-beta.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wiwatsrt/flarum-ext-best-answer.git",
+                "reference": "4927e44acb125a05b37e184ec4b03cdffa132422"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wiwatsrt/flarum-ext-best-answer/zipball/4927e44acb125a05b37e184ec4b03cdffa132422",
+                "reference": "4927e44acb125a05b37e184ec4b03cdffa132422",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Best Answer",
+                    "icon": {
+                        "name": "commenting-o",
+                        "backgroundColor": "#EE8208",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "WiwatSrt\\BestAnswer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wiwat Srisattha",
+                    "email": "wiwat@srisattha.com"
+                }
+            ],
+            "description": "Best Answer for Flarum.",
+            "keywords": [
+                "best-answer",
+                "flarum"
+            ],
+            "time": "2017-03-31T01:10:05+00:00"
+        },
+        {
             "name": "wuethrich44/flarum-ext-sso",
             "version": "v1.1.1",
             "source": {
@@ -6400,7 +6669,8 @@
         "sijad/flarum-ext-pages": 20,
         "johnhearfield/flarum-ext-oauth-google": 10,
         "davis/flarum-ext-customfooter": 10,
-        "sijad/flarum-ext-github-autolink": 10
+        "sijad/flarum-ext-github-autolink": 10,
+        "wiwatsrt/flarum-ext-best-answer": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

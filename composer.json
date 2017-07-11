@@ -74,7 +74,12 @@
         "avatar4eg/flarum-ext-geotags": "^0.2.0",
         "xengine/flarum-ext-markdown-editor": "^1.3",
         "flagrow/masquerade": "^0.1.1",
-        "xengine/flarum-ext-signature": "^0.1.2"
+        "xengine/flarum-ext-signature": "^0.1.2",
+        "wiwatsrt/flarum-ext-best-answer": "^0.1.0@beta",
+        "jordanjay29/flarum-ext-summaries": "^0.2.0",
+        "push-edx/flarum-ext-chat": "^0.5.1",
+        "avatar4eg/flarum-ext-users-list": "^0.1.1",
+        "issyrocks12/flarum-ext-filter": "^1.2"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0",
