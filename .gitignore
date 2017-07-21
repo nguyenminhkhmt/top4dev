@@ -14,3 +14,5 @@ assets/admin-*.css
 assets/forum-*.js
 assets/forum-*.css
 logo-iaqraotm.png
+*.zip
+storage/composer-home

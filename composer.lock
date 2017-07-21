@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2901bb67f28d5ec7ada2cc7f0d9ad9af",
+    "content-hash": "82cff6dd7cf85303ae9c2af6776e0017",
     "packages": [
         {
             "name": "amaurycarrade/flarum-ext-syndication",
@@ -967,6 +967,64 @@
             "time": "2017-06-03T18:33:07+00:00"
         },
         {
+            "name": "flagrow/ads",
+            "version": "0.1.0-beta.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/ads.git",
+                "reference": "98747ba37f9af83eb5578e9a4ebe54e6a9ec073d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/ads/zipball/98747ba37f9af83eb5578e9a4ebe54e6a9ec073d",
+                "reference": "98747ba37f9af83eb5578e9a4ebe54e6a9ec073d",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Ads",
+                    "icon": {
+                        "name": "audio-description",
+                        "backgroundColor": "#000",
+                        "color": "#87d37c"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Ads\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.me"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com"
+                }
+            ],
+            "description": "Bombarding your users with ads everywhere, if you want..",
+            "keywords": [
+                "Advertising",
+                "ads",
+                "flagrow",
+                "flarum"
+            ],
+            "time": "2017-02-27T09:04:03+00:00"
+        },
+        {
             "name": "flagrow/byobu",
             "version": "0.1.0-beta.16",
             "source": {
@@ -1145,16 +1203,16 @@
         },
         {
             "name": "flagrow/masquerade",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flagrow/masquerade.git",
-                "reference": "ee38b1fec448c38797ddaf5aceef86a83749bb67"
+                "reference": "429731419fd5ae49ab21881969f4708203e29114"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flagrow/masquerade/zipball/ee38b1fec448c38797ddaf5aceef86a83749bb67",
-                "reference": "ee38b1fec448c38797ddaf5aceef86a83749bb67",
+                "url": "https://api.github.com/repos/flagrow/masquerade/zipball/429731419fd5ae49ab21881969f4708203e29114",
+                "reference": "429731419fd5ae49ab21881969f4708203e29114",
                 "shasum": ""
             },
             "require": {
@@ -1196,7 +1254,7 @@
                 "profile",
                 "user profile"
             ],
-            "time": "2017-07-05T10:14:41+00:00"
+            "time": "2017-07-12T12:59:43+00:00"
         },
         {
             "name": "flagrow/upload",
@@ -1669,6 +1727,55 @@
                 "formatting"
             ],
             "time": "2016-03-29T08:14:20+00:00"
+        },
+        {
+            "name": "flarum/flarum-ext-embed",
+            "version": "v0.1.0-beta.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flarum/flarum-ext-embed.git",
+                "reference": "e8ab2bcf7b0e1da4a82ebcbc02c64b4d72f6afd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flarum/flarum-ext-embed/zipball/e8ab2bcf7b0e1da4a82ebcbc02c64b4d72f6afd8",
+                "reference": "e8ab2bcf7b0e1da4a82ebcbc02c64b4d72f6afd8",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Embed",
+                    "icon": {
+                        "name": "code",
+                        "backgroundColor": "#B9D233",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flarum\\Embed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Toby Zerner",
+                    "email": "toby.zerner@gmail.com"
+                }
+            ],
+            "description": "Embed Flarum discussions as comments for your blog.",
+            "keywords": [
+                "discussion"
+            ],
+            "time": "2015-11-05T06:12:25+00:00"
         },
         {
             "name": "flarum/flarum-ext-emoji",
@@ -2323,6 +2430,47 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "time": "2016-04-27T14:08:29+00:00"
+        },
+        {
+            "name": "ganuonglachanh/flarum-vn-slug",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ganuonglachanh/flarum-vn-slug.git",
+                "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ganuonglachanh/flarum-vn-slug/zipball/7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
+                "reference": "7f51d92e0815bb270f8cbcc854db6b9fb1d2093b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Vietnamese Slug",
+                    "icon": {
+                        "name": "slug",
+                        "backgroundColor": "#000",
+                        "color": "#87d37c"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vu Thai Hoc",
+                    "email": "vuthaihoc.ttud@gmail.com"
+                }
+            ],
+            "description": "Support to build slug from Vietnamese title",
+            "time": "2016-01-14T16:49:28+00:00"
         },
         {
             "name": "ganuonglachanh/vietnamese",
@@ -4691,66 +4839,6 @@
             "time": "2016-10-10T12:19:37+00:00"
         },
         {
-            "name": "push-edx/flarum-ext-chat",
-            "version": "0.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Push-EDX/flarum-ext-chat.git",
-                "reference": "2adff377e47b7351f47737c0cd59ce326802919c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Push-EDX/flarum-ext-chat/zipball/2adff377e47b7351f47737c0cd59ce326802919c",
-                "reference": "2adff377e47b7351f47737c0cd59ce326802919c",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0-beta.6",
-                "flarum/flarum-ext-markdown": "^0.1.0-beta.3"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "Realtime Chat",
-                    "icon": {
-                        "image": "icon.png",
-                        "backgroundSize": "75px 75px",
-                        "backgroundPosition": "center",
-                        "backgroundRepeat": "no-repeat",
-                        "backgroundColor": "#244052",
-                        "color": "#fff"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PushEDX\\Chat\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Guillem Pascual",
-                    "email": "blipi.tube@gmail.com",
-                    "homepage": "http://pushedx.net"
-                },
-                {
-                    "name": "Juan"
-                }
-            ],
-            "description": "Realtime chat.",
-            "keywords": [
-                "chat",
-                "flarum",
-                "push-edx",
-                "pushedx"
-            ],
-            "time": "2017-03-27T17:10:12+00:00"
-        },
-        {
             "name": "pusher/pusher-php-server",
             "version": "2.6.4",
             "source": {
@@ -4875,6 +4963,66 @@
                 "uuid"
             ],
             "time": "2017-03-26T20:37:53+00:00"
+        },
+        {
+            "name": "reflar/gamification",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/ReDevelopers/ReFlar/gamification.git",
+                "reference": "8466c3980381134e8558ff55b21d954074552f24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v3/projects/ReDevelopers%2FReFlar%2Fgamification/repository/archive.zip?sha=8466c3980381134e8558ff55b21d954074552f24",
+                "reference": "8466c3980381134e8558ff55b21d954074552f24",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "ReFlar Gamification",
+                    "icon": {
+                        "name": "thumbs-up",
+                        "backgroundColor": "#263238",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Reflar\\gamification\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lopez",
+                    "email": "ralkage@reflar.email",
+                    "homepage": "https://reflar.io"
+                },
+                {
+                    "name": "Charlie K",
+                    "email": "issyrocks12@reflar.email",
+                    "homepage": "https://reflar.io"
+                }
+            ],
+            "description": "Manage your users with style",
+            "keywords": [
+                "Gamification",
+                "Settings",
+                "flarum",
+                "misc",
+                "points",
+                "reflar"
+            ],
+            "time": "2017-07-15 21:37:26"
         },
         {
             "name": "s9e/flarum-ext-autoimage",
@@ -6185,53 +6333,6 @@
             "time": "2017-03-31T01:10:05+00:00"
         },
         {
-            "name": "wuethrich44/flarum-ext-sso",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wuethrich44/flarum-ext-sso.git",
-                "reference": "f67338ad0966cd774e4b1c6c0c5eb47725b02812"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wuethrich44/flarum-ext-sso/zipball/f67338ad0966cd774e4b1c6c0c5eb47725b02812",
-                "reference": "f67338ad0966cd774e4b1c6c0c5eb47725b02812",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0-beta.6"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "Single Sign On",
-                    "icon": {
-                        "name": "shield"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Wuethrich44\\SSO\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabian Wüthrich",
-                    "email": "fabian.wuethrich@outlook.com"
-                }
-            ],
-            "description": "Single Sign On for Flarum",
-            "keywords": [
-                "Authentication"
-            ],
-            "time": "2017-07-09T10:25:48+00:00"
-        },
-        {
             "name": "xengine/flarum-ext-markdown-editor",
             "version": "1.3.1",
             "source": {
@@ -6670,7 +6771,10 @@
         "johnhearfield/flarum-ext-oauth-google": 10,
         "davis/flarum-ext-customfooter": 10,
         "sijad/flarum-ext-github-autolink": 10,
-        "wiwatsrt/flarum-ext-best-answer": 10
+        "wiwatsrt/flarum-ext-best-answer": 10,
+        "flarum/flarum-ext-embed": 10,
+        "flagrow/ads": 10,
+        "reflar/gamification": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
